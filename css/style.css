@@ -1,0 +1,90 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: wheat;
+}
+
+header {
+    display: flex;
+    background-color: #9FBB73;
+    border-radius: 20px;
+}
+
+header a {
+    margin-top: 0.5%;
+    margin-left: 2%;
+}
+
+h1 {
+    display: flex;
+    padding-left: 30%;
+    color: white;
+}
+
+.mascotimg {
+    width: 20%;
+    margin-top: 3%;
+}
+
+.mascot {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.inputbar {
+    margin-left: 20%;
+}
+
+.input {
+    margin-top: 3%;
+    width: 600px;
+    height: 20px;
+    background-color: azure;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.input:focus {
+    background-color: orange;
+    outline-color: black;
+}
+
+.imagessection {
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: #F3B664;
+    padding: 5%;
+    border-radius: 20px;
+}
+
+.images-recipe {
+    width: 100%;
+    border: 1px solid black;
+    transition: box-shadow .5s;
+    transition: filter .5s ease-in-out;
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.images-recipe:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+    color: black;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+#images-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.images-not-displayed {
+    display: none;
+}
+
