@@ -1,8 +1,6 @@
 Website project that i worked on a duo team. This is a project made to work with Agile Methodologies.
 
 
-
-(haha)
 Manifesto for Agile Software Development
 
 
